@@ -30,75 +30,86 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MovimientoClientes));
             this.tbc_ListarMovimientos = new System.Windows.Forms.TabPage();
-            this.gbp_Listar = new System.Windows.Forms.GroupBox();
-            this.lbl_Período = new System.Windows.Forms.Label();
-            this.cbo_Periodo = new System.Windows.Forms.ComboBox();
-            this.lbl_Cliente = new System.Windows.Forms.Label();
-            this.txt_CodigoClientes = new System.Windows.Forms.TextBox();
-            this.btn_buscar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.SaldoCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SaldoComprobante = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaEmision = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TipoMovimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NumeroComprobante = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TipoMovimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FechaEmision = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FechaVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SaldoComprobante = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SaldoCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gbp_Listar = new System.Windows.Forms.GroupBox();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.txt_CodigoClientes = new System.Windows.Forms.TextBox();
+            this.lbl_Cliente = new System.Windows.Forms.Label();
+            this.cbo_Periodo = new System.Windows.Forms.ComboBox();
+            this.lbl_Período = new System.Windows.Forms.Label();
             this.tbc_Generar = new System.Windows.Forms.TabPage();
-            this.Gpb_EncabezadoComprobante = new System.Windows.Forms.GroupBox();
-            this.lbl_TipoComprobante = new System.Windows.Forms.Label();
-            this.cbo_TipoComprobante = new System.Windows.Forms.ComboBox();
-            this.lbl_NoComprobante = new System.Windows.Forms.Label();
-            this.lbl_Serie = new System.Windows.Forms.Label();
-            this.txt_serieComprobante = new System.Windows.Forms.TextBox();
-            this.txt_NoComprobante = new System.Windows.Forms.TextBox();
-            this.lbl_Fecha = new System.Windows.Forms.Label();
-            this.txt_fecha = new System.Windows.Forms.TextBox();
-            this.lbl_Moneda = new System.Windows.Forms.Label();
-            this.cbo_TipoMoneda = new System.Windows.Forms.ComboBox();
-            this.lbl_cotizacion = new System.Windows.Forms.Label();
-            this.txt_Cotización = new System.Windows.Forms.TextBox();
-            this.lbl_CodigoCliente = new System.Windows.Forms.Label();
-            this.txt_CodigoCliente = new System.Windows.Forms.TextBox();
-            this.lbl_CodigoVendedor = new System.Windows.Forms.Label();
-            this.cbo_codigoVendedor = new System.Windows.Forms.ComboBox();
-            this.lbl_CentroCosto = new System.Windows.Forms.Label();
-            this.txt_CentroCosto = new System.Windows.Forms.TextBox();
-            this.Gpb_DetalleComprobante = new System.Windows.Forms.GroupBox();
-            this.lbl_Articulo = new System.Windows.Forms.Label();
-            this.lbl_Precio = new System.Windows.Forms.Label();
-            this.lbl_Cantidad = new System.Windows.Forms.Label();
-            this.lbl_Concepto = new System.Windows.Forms.Label();
-            this.txt_Concepto = new System.Windows.Forms.TextBox();
-            this.txt_cantidad = new System.Windows.Forms.TextBox();
-            this.btn_minus = new System.Windows.Forms.Button();
-            this.btn_Plus = new System.Windows.Forms.Button();
-            this.txt_Precio = new System.Windows.Forms.TextBox();
-            this.Dgv_detalleComprobante = new System.Windows.Forms.DataGridView();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Articulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cbo_Servicio = new System.Windows.Forms.ComboBox();
-            this.chk_IVA = new System.Windows.Forms.CheckBox();
-            this.Btn_Agregar = new System.Windows.Forms.Button();
-            this.lbl_Descuento = new System.Windows.Forms.Label();
-            this.cbo_Descuento = new System.Windows.Forms.ComboBox();
             this.Btn_generar = new System.Windows.Forms.Button();
+            this.Gpb_DetalleComprobante = new System.Windows.Forms.GroupBox();
+            this.cbo_Descuento = new System.Windows.Forms.ComboBox();
+            this.lbl_Descuento = new System.Windows.Forms.Label();
+            this.Btn_Agregar = new System.Windows.Forms.Button();
+            this.chk_IVA = new System.Windows.Forms.CheckBox();
+            this.cbo_Servicio = new System.Windows.Forms.ComboBox();
+            this.Dgv_detalleComprobante = new System.Windows.Forms.DataGridView();
+            this.Articulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Concepto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txt_Precio = new System.Windows.Forms.TextBox();
+            this.btn_Plus = new System.Windows.Forms.Button();
+            this.btn_minus = new System.Windows.Forms.Button();
+            this.txt_cantidad = new System.Windows.Forms.TextBox();
+            this.txt_Concepto = new System.Windows.Forms.TextBox();
+            this.lbl_Concepto = new System.Windows.Forms.Label();
+            this.lbl_Cantidad = new System.Windows.Forms.Label();
+            this.lbl_Precio = new System.Windows.Forms.Label();
+            this.lbl_Articulo = new System.Windows.Forms.Label();
+            this.Gpb_EncabezadoComprobante = new System.Windows.Forms.GroupBox();
+            this.txt_CentroCosto = new System.Windows.Forms.TextBox();
+            this.lbl_CentroCosto = new System.Windows.Forms.Label();
+            this.cbo_codigoVendedor = new System.Windows.Forms.ComboBox();
+            this.lbl_CodigoVendedor = new System.Windows.Forms.Label();
+            this.txt_CodigoCliente = new System.Windows.Forms.TextBox();
+            this.lbl_CodigoCliente = new System.Windows.Forms.Label();
+            this.txt_Cotización = new System.Windows.Forms.TextBox();
+            this.lbl_cotizacion = new System.Windows.Forms.Label();
+            this.cbo_TipoMoneda = new System.Windows.Forms.ComboBox();
+            this.lbl_Moneda = new System.Windows.Forms.Label();
+            this.txt_fecha = new System.Windows.Forms.TextBox();
+            this.lbl_Fecha = new System.Windows.Forms.Label();
+            this.txt_NoComprobante = new System.Windows.Forms.TextBox();
+            this.txt_serieComprobante = new System.Windows.Forms.TextBox();
+            this.lbl_Serie = new System.Windows.Forms.Label();
+            this.lbl_NoComprobante = new System.Windows.Forms.Label();
+            this.cbo_TipoComprobante = new System.Windows.Forms.ComboBox();
+            this.lbl_TipoComprobante = new System.Windows.Forms.Label();
             this.tbc_MovimientosClientes = new System.Windows.Forms.TabControl();
+            this.btn_Saldar = new System.Windows.Forms.Button();
+            this.lbl_codigoCompro = new System.Windows.Forms.Label();
+            this.lbl_SaldoaPag = new System.Windows.Forms.Label();
+            this.txt_saldo = new System.Windows.Forms.TextBox();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
             this.tbc_ListarMovimientos.SuspendLayout();
-            this.gbp_Listar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.gbp_Listar.SuspendLayout();
             this.tbc_Generar.SuspendLayout();
-            this.Gpb_EncabezadoComprobante.SuspendLayout();
             this.Gpb_DetalleComprobante.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detalleComprobante)).BeginInit();
+            this.Gpb_EncabezadoComprobante.SuspendLayout();
             this.tbc_MovimientosClientes.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbc_ListarMovimientos
             // 
+            this.tbc_ListarMovimientos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(35)))), ((int)(((byte)(90)))));
+            this.tbc_ListarMovimientos.Controls.Add(this.txt_codigo);
+            this.tbc_ListarMovimientos.Controls.Add(this.txt_saldo);
+            this.tbc_ListarMovimientos.Controls.Add(this.lbl_SaldoaPag);
+            this.tbc_ListarMovimientos.Controls.Add(this.lbl_codigoCompro);
+            this.tbc_ListarMovimientos.Controls.Add(this.btn_Saldar);
             this.tbc_ListarMovimientos.Controls.Add(this.dataGridView1);
             this.tbc_ListarMovimientos.Controls.Add(this.gbp_Listar);
             this.tbc_ListarMovimientos.Location = new System.Drawing.Point(4, 22);
@@ -107,65 +118,6 @@
             this.tbc_ListarMovimientos.Size = new System.Drawing.Size(1016, 703);
             this.tbc_ListarMovimientos.TabIndex = 1;
             this.tbc_ListarMovimientos.Text = "Listar Movimientos";
-            this.tbc_ListarMovimientos.UseVisualStyleBackColor = true;
-            // 
-            // gbp_Listar
-            // 
-            this.gbp_Listar.Controls.Add(this.btn_buscar);
-            this.gbp_Listar.Controls.Add(this.txt_CodigoClientes);
-            this.gbp_Listar.Controls.Add(this.lbl_Cliente);
-            this.gbp_Listar.Controls.Add(this.cbo_Periodo);
-            this.gbp_Listar.Controls.Add(this.lbl_Período);
-            this.gbp_Listar.Location = new System.Drawing.Point(7, 16);
-            this.gbp_Listar.Name = "gbp_Listar";
-            this.gbp_Listar.Size = new System.Drawing.Size(983, 110);
-            this.gbp_Listar.TabIndex = 1;
-            this.gbp_Listar.TabStop = false;
-            this.gbp_Listar.Text = "Listado Movimiento";
-            // 
-            // lbl_Período
-            // 
-            this.lbl_Período.AutoSize = true;
-            this.lbl_Período.Location = new System.Drawing.Point(55, 56);
-            this.lbl_Período.Name = "lbl_Período";
-            this.lbl_Período.Size = new System.Drawing.Size(45, 13);
-            this.lbl_Período.TabIndex = 0;
-            this.lbl_Período.Text = "Período";
-            // 
-            // cbo_Periodo
-            // 
-            this.cbo_Periodo.FormattingEnabled = true;
-            this.cbo_Periodo.Location = new System.Drawing.Point(126, 53);
-            this.cbo_Periodo.Name = "cbo_Periodo";
-            this.cbo_Periodo.Size = new System.Drawing.Size(135, 21);
-            this.cbo_Periodo.TabIndex = 1;
-            // 
-            // lbl_Cliente
-            // 
-            this.lbl_Cliente.AutoSize = true;
-            this.lbl_Cliente.Location = new System.Drawing.Point(325, 52);
-            this.lbl_Cliente.Name = "lbl_Cliente";
-            this.lbl_Cliente.Size = new System.Drawing.Size(90, 13);
-            this.lbl_Cliente.TabIndex = 2;
-            this.lbl_Cliente.Text = "Codigo de Cliente";
-            // 
-            // txt_CodigoClientes
-            // 
-            this.txt_CodigoClientes.Location = new System.Drawing.Point(485, 49);
-            this.txt_CodigoClientes.Name = "txt_CodigoClientes";
-            this.txt_CodigoClientes.Size = new System.Drawing.Size(100, 20);
-            this.txt_CodigoClientes.TabIndex = 3;
-            // 
-            // btn_buscar
-            // 
-            this.btn_buscar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_buscar.Location = new System.Drawing.Point(702, 33);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(55, 41);
-            this.btn_buscar.TabIndex = 4;
-            this.btn_buscar.Text = "Buscar";
-            this.btn_buscar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_buscar.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -179,50 +131,111 @@
             this.Haber,
             this.SaldoComprobante,
             this.SaldoCliente});
-            this.dataGridView1.Location = new System.Drawing.Point(28, 151);
+            this.dataGridView1.Location = new System.Drawing.Point(34, 232);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(938, 255);
             this.dataGridView1.TabIndex = 2;
             // 
-            // SaldoCliente
+            // NumeroComprobante
             // 
-            this.SaldoCliente.HeaderText = "Saldo del Cliente";
-            this.SaldoCliente.Name = "SaldoCliente";
-            // 
-            // SaldoComprobante
-            // 
-            this.SaldoComprobante.HeaderText = "Saldo de Comprobante";
-            this.SaldoComprobante.Name = "SaldoComprobante";
-            // 
-            // Haber
-            // 
-            this.Haber.HeaderText = "Haber";
-            this.Haber.Name = "Haber";
-            // 
-            // Debe
-            // 
-            this.Debe.HeaderText = "Debe";
-            this.Debe.Name = "Debe";
-            // 
-            // FechaVencimiento
-            // 
-            this.FechaVencimiento.HeaderText = "Fecha de Vencimiento";
-            this.FechaVencimiento.Name = "FechaVencimiento";
-            // 
-            // FechaEmision
-            // 
-            this.FechaEmision.HeaderText = "Fecha de Emision";
-            this.FechaEmision.Name = "FechaEmision";
+            this.NumeroComprobante.HeaderText = "No. Comprobante";
+            this.NumeroComprobante.Name = "NumeroComprobante";
             // 
             // TipoMovimiento
             // 
             this.TipoMovimiento.HeaderText = "Tipo de Movimiento";
             this.TipoMovimiento.Name = "TipoMovimiento";
             // 
-            // NumeroComprobante
+            // FechaEmision
             // 
-            this.NumeroComprobante.HeaderText = "No. Comprobante";
-            this.NumeroComprobante.Name = "NumeroComprobante";
+            this.FechaEmision.HeaderText = "Fecha de Emision";
+            this.FechaEmision.Name = "FechaEmision";
+            // 
+            // FechaVencimiento
+            // 
+            this.FechaVencimiento.HeaderText = "Fecha de Vencimiento";
+            this.FechaVencimiento.Name = "FechaVencimiento";
+            // 
+            // Debe
+            // 
+            this.Debe.HeaderText = "Debe";
+            this.Debe.Name = "Debe";
+            // 
+            // Haber
+            // 
+            this.Haber.HeaderText = "Haber";
+            this.Haber.Name = "Haber";
+            // 
+            // SaldoComprobante
+            // 
+            this.SaldoComprobante.HeaderText = "Saldo de Comprobante";
+            this.SaldoComprobante.Name = "SaldoComprobante";
+            // 
+            // SaldoCliente
+            // 
+            this.SaldoCliente.HeaderText = "Saldo del Cliente";
+            this.SaldoCliente.Name = "SaldoCliente";
+            // 
+            // gbp_Listar
+            // 
+            this.gbp_Listar.Controls.Add(this.btn_buscar);
+            this.gbp_Listar.Controls.Add(this.txt_CodigoClientes);
+            this.gbp_Listar.Controls.Add(this.lbl_Cliente);
+            this.gbp_Listar.Controls.Add(this.cbo_Periodo);
+            this.gbp_Listar.Controls.Add(this.lbl_Período);
+            this.gbp_Listar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.gbp_Listar.Location = new System.Drawing.Point(7, 16);
+            this.gbp_Listar.Name = "gbp_Listar";
+            this.gbp_Listar.Size = new System.Drawing.Size(983, 110);
+            this.gbp_Listar.TabIndex = 1;
+            this.gbp_Listar.TabStop = false;
+            this.gbp_Listar.Text = "Listado Movimiento";
+            // 
+            // btn_buscar
+            // 
+            this.btn_buscar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_buscar.Location = new System.Drawing.Point(702, 33);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(55, 41);
+            this.btn_buscar.TabIndex = 4;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            // 
+            // txt_CodigoClientes
+            // 
+            this.txt_CodigoClientes.Location = new System.Drawing.Point(485, 49);
+            this.txt_CodigoClientes.Name = "txt_CodigoClientes";
+            this.txt_CodigoClientes.Size = new System.Drawing.Size(100, 20);
+            this.txt_CodigoClientes.TabIndex = 3;
+            // 
+            // lbl_Cliente
+            // 
+            this.lbl_Cliente.AutoSize = true;
+            this.lbl_Cliente.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_Cliente.Location = new System.Drawing.Point(325, 52);
+            this.lbl_Cliente.Name = "lbl_Cliente";
+            this.lbl_Cliente.Size = new System.Drawing.Size(90, 13);
+            this.lbl_Cliente.TabIndex = 2;
+            this.lbl_Cliente.Text = "Codigo de Cliente";
+            // 
+            // cbo_Periodo
+            // 
+            this.cbo_Periodo.FormattingEnabled = true;
+            this.cbo_Periodo.Location = new System.Drawing.Point(126, 53);
+            this.cbo_Periodo.Name = "cbo_Periodo";
+            this.cbo_Periodo.Size = new System.Drawing.Size(135, 21);
+            this.cbo_Periodo.TabIndex = 1;
+            // 
+            // lbl_Período
+            // 
+            this.lbl_Período.AutoSize = true;
+            this.lbl_Período.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_Período.Location = new System.Drawing.Point(55, 56);
+            this.lbl_Período.Name = "lbl_Período";
+            this.lbl_Período.Size = new System.Drawing.Size(45, 13);
+            this.lbl_Período.TabIndex = 0;
+            this.lbl_Período.Text = "Período";
             // 
             // tbc_Generar
             // 
@@ -236,6 +249,192 @@
             this.tbc_Generar.TabIndex = 0;
             this.tbc_Generar.Text = "Generar Comprobante";
             this.tbc_Generar.UseVisualStyleBackColor = true;
+            // 
+            // Btn_generar
+            // 
+            this.Btn_generar.Location = new System.Drawing.Point(858, 650);
+            this.Btn_generar.Name = "Btn_generar";
+            this.Btn_generar.Size = new System.Drawing.Size(85, 30);
+            this.Btn_generar.TabIndex = 15;
+            this.Btn_generar.Text = "Generar";
+            this.Btn_generar.UseVisualStyleBackColor = true;
+            // 
+            // Gpb_DetalleComprobante
+            // 
+            this.Gpb_DetalleComprobante.Controls.Add(this.cbo_Descuento);
+            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Descuento);
+            this.Gpb_DetalleComprobante.Controls.Add(this.Btn_Agregar);
+            this.Gpb_DetalleComprobante.Controls.Add(this.chk_IVA);
+            this.Gpb_DetalleComprobante.Controls.Add(this.cbo_Servicio);
+            this.Gpb_DetalleComprobante.Controls.Add(this.Dgv_detalleComprobante);
+            this.Gpb_DetalleComprobante.Controls.Add(this.txt_Precio);
+            this.Gpb_DetalleComprobante.Controls.Add(this.btn_Plus);
+            this.Gpb_DetalleComprobante.Controls.Add(this.btn_minus);
+            this.Gpb_DetalleComprobante.Controls.Add(this.txt_cantidad);
+            this.Gpb_DetalleComprobante.Controls.Add(this.txt_Concepto);
+            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Concepto);
+            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Cantidad);
+            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Precio);
+            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Articulo);
+            this.Gpb_DetalleComprobante.Location = new System.Drawing.Point(1, 214);
+            this.Gpb_DetalleComprobante.Name = "Gpb_DetalleComprobante";
+            this.Gpb_DetalleComprobante.Size = new System.Drawing.Size(994, 430);
+            this.Gpb_DetalleComprobante.TabIndex = 1;
+            this.Gpb_DetalleComprobante.TabStop = false;
+            this.Gpb_DetalleComprobante.Text = "Detalle Comprobante";
+            // 
+            // cbo_Descuento
+            // 
+            this.cbo_Descuento.FormattingEnabled = true;
+            this.cbo_Descuento.Location = new System.Drawing.Point(899, 35);
+            this.cbo_Descuento.Name = "cbo_Descuento";
+            this.cbo_Descuento.Size = new System.Drawing.Size(33, 21);
+            this.cbo_Descuento.TabIndex = 14;
+            // 
+            // lbl_Descuento
+            // 
+            this.lbl_Descuento.AutoSize = true;
+            this.lbl_Descuento.Location = new System.Drawing.Point(834, 38);
+            this.lbl_Descuento.Name = "lbl_Descuento";
+            this.lbl_Descuento.Size = new System.Drawing.Size(59, 13);
+            this.lbl_Descuento.TabIndex = 13;
+            this.lbl_Descuento.Text = "Descuento";
+            // 
+            // Btn_Agregar
+            // 
+            this.Btn_Agregar.Location = new System.Drawing.Point(837, 102);
+            this.Btn_Agregar.Name = "Btn_Agregar";
+            this.Btn_Agregar.Size = new System.Drawing.Size(85, 30);
+            this.Btn_Agregar.TabIndex = 12;
+            this.Btn_Agregar.Text = "Agregar";
+            this.Btn_Agregar.UseVisualStyleBackColor = true;
+            // 
+            // chk_IVA
+            // 
+            this.chk_IVA.AutoSize = true;
+            this.chk_IVA.Location = new System.Drawing.Point(734, 58);
+            this.chk_IVA.Name = "chk_IVA";
+            this.chk_IVA.Size = new System.Drawing.Size(82, 17);
+            this.chk_IVA.TabIndex = 11;
+            this.chk_IVA.Text = "IVA incluido";
+            this.chk_IVA.UseVisualStyleBackColor = true;
+            // 
+            // cbo_Servicio
+            // 
+            this.cbo_Servicio.FormattingEnabled = true;
+            this.cbo_Servicio.Location = new System.Drawing.Point(118, 31);
+            this.cbo_Servicio.Name = "cbo_Servicio";
+            this.cbo_Servicio.Size = new System.Drawing.Size(110, 21);
+            this.cbo_Servicio.TabIndex = 10;
+            // 
+            // Dgv_detalleComprobante
+            // 
+            this.Dgv_detalleComprobante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv_detalleComprobante.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Articulo,
+            this.Concepto,
+            this.Cantidad,
+            this.Precio});
+            this.Dgv_detalleComprobante.Location = new System.Drawing.Point(20, 159);
+            this.Dgv_detalleComprobante.Name = "Dgv_detalleComprobante";
+            this.Dgv_detalleComprobante.Size = new System.Drawing.Size(941, 256);
+            this.Dgv_detalleComprobante.TabIndex = 9;
+            // 
+            // Articulo
+            // 
+            this.Articulo.HeaderText = "Articulo";
+            this.Articulo.Name = "Articulo";
+            // 
+            // Concepto
+            // 
+            this.Concepto.HeaderText = "Concepto";
+            this.Concepto.Name = "Concepto";
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            // 
+            // txt_Precio
+            // 
+            this.txt_Precio.Location = new System.Drawing.Point(727, 32);
+            this.txt_Precio.Name = "txt_Precio";
+            this.txt_Precio.Size = new System.Drawing.Size(89, 20);
+            this.txt_Precio.TabIndex = 8;
+            // 
+            // btn_Plus
+            // 
+            this.btn_Plus.Image = ((System.Drawing.Image)(resources.GetObject("btn_Plus.Image")));
+            this.btn_Plus.Location = new System.Drawing.Point(622, 29);
+            this.btn_Plus.Name = "btn_Plus";
+            this.btn_Plus.Size = new System.Drawing.Size(20, 24);
+            this.btn_Plus.TabIndex = 7;
+            this.btn_Plus.UseVisualStyleBackColor = true;
+            // 
+            // btn_minus
+            // 
+            this.btn_minus.Image = ((System.Drawing.Image)(resources.GetObject("btn_minus.Image")));
+            this.btn_minus.Location = new System.Drawing.Point(599, 29);
+            this.btn_minus.Name = "btn_minus";
+            this.btn_minus.Size = new System.Drawing.Size(17, 24);
+            this.btn_minus.TabIndex = 6;
+            this.btn_minus.UseVisualStyleBackColor = true;
+            // 
+            // txt_cantidad
+            // 
+            this.txt_cantidad.Location = new System.Drawing.Point(559, 31);
+            this.txt_cantidad.Name = "txt_cantidad";
+            this.txt_cantidad.Size = new System.Drawing.Size(34, 20);
+            this.txt_cantidad.TabIndex = 5;
+            // 
+            // txt_Concepto
+            // 
+            this.txt_Concepto.Location = new System.Drawing.Point(308, 32);
+            this.txt_Concepto.Multiline = true;
+            this.txt_Concepto.Name = "txt_Concepto";
+            this.txt_Concepto.Size = new System.Drawing.Size(164, 22);
+            this.txt_Concepto.TabIndex = 4;
+            // 
+            // lbl_Concepto
+            // 
+            this.lbl_Concepto.AutoSize = true;
+            this.lbl_Concepto.Location = new System.Drawing.Point(249, 35);
+            this.lbl_Concepto.Name = "lbl_Concepto";
+            this.lbl_Concepto.Size = new System.Drawing.Size(53, 13);
+            this.lbl_Concepto.TabIndex = 3;
+            this.lbl_Concepto.Text = "Concepto";
+            // 
+            // lbl_Cantidad
+            // 
+            this.lbl_Cantidad.AutoSize = true;
+            this.lbl_Cantidad.Location = new System.Drawing.Point(490, 34);
+            this.lbl_Cantidad.Name = "lbl_Cantidad";
+            this.lbl_Cantidad.Size = new System.Drawing.Size(49, 13);
+            this.lbl_Cantidad.TabIndex = 2;
+            this.lbl_Cantidad.Text = "Cantidad";
+            // 
+            // lbl_Precio
+            // 
+            this.lbl_Precio.AutoSize = true;
+            this.lbl_Precio.Location = new System.Drawing.Point(675, 35);
+            this.lbl_Precio.Name = "lbl_Precio";
+            this.lbl_Precio.Size = new System.Drawing.Size(37, 13);
+            this.lbl_Precio.TabIndex = 1;
+            this.lbl_Precio.Text = "Precio";
+            // 
+            // lbl_Articulo
+            // 
+            this.lbl_Articulo.AutoSize = true;
+            this.lbl_Articulo.Location = new System.Drawing.Point(17, 35);
+            this.lbl_Articulo.Name = "lbl_Articulo";
+            this.lbl_Articulo.Size = new System.Drawing.Size(85, 13);
+            this.lbl_Articulo.TabIndex = 0;
+            this.lbl_Articulo.Text = "Articulo/Servicio";
             // 
             // Gpb_EncabezadoComprobante
             // 
@@ -264,136 +463,12 @@
             this.Gpb_EncabezadoComprobante.TabStop = false;
             this.Gpb_EncabezadoComprobante.Text = "Encabezado Comprobante";
             // 
-            // lbl_TipoComprobante
+            // txt_CentroCosto
             // 
-            this.lbl_TipoComprobante.AutoSize = true;
-            this.lbl_TipoComprobante.Location = new System.Drawing.Point(15, 31);
-            this.lbl_TipoComprobante.Name = "lbl_TipoComprobante";
-            this.lbl_TipoComprobante.Size = new System.Drawing.Size(109, 13);
-            this.lbl_TipoComprobante.TabIndex = 0;
-            this.lbl_TipoComprobante.Text = "Tipo de Comprobante";
-            // 
-            // cbo_TipoComprobante
-            // 
-            this.cbo_TipoComprobante.FormattingEnabled = true;
-            this.cbo_TipoComprobante.Location = new System.Drawing.Point(140, 28);
-            this.cbo_TipoComprobante.Name = "cbo_TipoComprobante";
-            this.cbo_TipoComprobante.Size = new System.Drawing.Size(110, 21);
-            this.cbo_TipoComprobante.TabIndex = 1;
-            // 
-            // lbl_NoComprobante
-            // 
-            this.lbl_NoComprobante.AutoSize = true;
-            this.lbl_NoComprobante.Location = new System.Drawing.Point(684, 32);
-            this.lbl_NoComprobante.Name = "lbl_NoComprobante";
-            this.lbl_NoComprobante.Size = new System.Drawing.Size(105, 13);
-            this.lbl_NoComprobante.TabIndex = 2;
-            this.lbl_NoComprobante.Text = "No. de Comprobante";
-            // 
-            // lbl_Serie
-            // 
-            this.lbl_Serie.AutoSize = true;
-            this.lbl_Serie.Location = new System.Drawing.Point(504, 31);
-            this.lbl_Serie.Name = "lbl_Serie";
-            this.lbl_Serie.Size = new System.Drawing.Size(31, 13);
-            this.lbl_Serie.TabIndex = 3;
-            this.lbl_Serie.Text = "Serie";
-            // 
-            // txt_serieComprobante
-            // 
-            this.txt_serieComprobante.Location = new System.Drawing.Point(541, 28);
-            this.txt_serieComprobante.Name = "txt_serieComprobante";
-            this.txt_serieComprobante.Size = new System.Drawing.Size(89, 20);
-            this.txt_serieComprobante.TabIndex = 4;
-            // 
-            // txt_NoComprobante
-            // 
-            this.txt_NoComprobante.Location = new System.Drawing.Point(795, 29);
-            this.txt_NoComprobante.Name = "txt_NoComprobante";
-            this.txt_NoComprobante.Size = new System.Drawing.Size(110, 20);
-            this.txt_NoComprobante.TabIndex = 5;
-            // 
-            // lbl_Fecha
-            // 
-            this.lbl_Fecha.AutoSize = true;
-            this.lbl_Fecha.Location = new System.Drawing.Point(280, 32);
-            this.lbl_Fecha.Name = "lbl_Fecha";
-            this.lbl_Fecha.Size = new System.Drawing.Size(37, 13);
-            this.lbl_Fecha.TabIndex = 6;
-            this.lbl_Fecha.Text = "Fecha";
-            // 
-            // txt_fecha
-            // 
-            this.txt_fecha.Location = new System.Drawing.Point(375, 28);
-            this.txt_fecha.Name = "txt_fecha";
-            this.txt_fecha.Size = new System.Drawing.Size(110, 20);
-            this.txt_fecha.TabIndex = 7;
-            // 
-            // lbl_Moneda
-            // 
-            this.lbl_Moneda.AutoSize = true;
-            this.lbl_Moneda.Location = new System.Drawing.Point(15, 74);
-            this.lbl_Moneda.Name = "lbl_Moneda";
-            this.lbl_Moneda.Size = new System.Drawing.Size(46, 13);
-            this.lbl_Moneda.TabIndex = 8;
-            this.lbl_Moneda.Text = "Moneda";
-            // 
-            // cbo_TipoMoneda
-            // 
-            this.cbo_TipoMoneda.FormattingEnabled = true;
-            this.cbo_TipoMoneda.Location = new System.Drawing.Point(140, 71);
-            this.cbo_TipoMoneda.Name = "cbo_TipoMoneda";
-            this.cbo_TipoMoneda.Size = new System.Drawing.Size(110, 21);
-            this.cbo_TipoMoneda.TabIndex = 9;
-            // 
-            // lbl_cotizacion
-            // 
-            this.lbl_cotizacion.AutoSize = true;
-            this.lbl_cotizacion.Location = new System.Drawing.Point(280, 74);
-            this.lbl_cotizacion.Name = "lbl_cotizacion";
-            this.lbl_cotizacion.Size = new System.Drawing.Size(62, 13);
-            this.lbl_cotizacion.TabIndex = 10;
-            this.lbl_cotizacion.Text = "Contización";
-            // 
-            // txt_Cotización
-            // 
-            this.txt_Cotización.Location = new System.Drawing.Point(375, 71);
-            this.txt_Cotización.Name = "txt_Cotización";
-            this.txt_Cotización.Size = new System.Drawing.Size(110, 20);
-            this.txt_Cotización.TabIndex = 11;
-            // 
-            // lbl_CodigoCliente
-            // 
-            this.lbl_CodigoCliente.AutoSize = true;
-            this.lbl_CodigoCliente.Location = new System.Drawing.Point(15, 121);
-            this.lbl_CodigoCliente.Name = "lbl_CodigoCliente";
-            this.lbl_CodigoCliente.Size = new System.Drawing.Size(75, 13);
-            this.lbl_CodigoCliente.TabIndex = 12;
-            this.lbl_CodigoCliente.Text = "Codigo Cliente";
-            // 
-            // txt_CodigoCliente
-            // 
-            this.txt_CodigoCliente.Location = new System.Drawing.Point(140, 118);
-            this.txt_CodigoCliente.Name = "txt_CodigoCliente";
-            this.txt_CodigoCliente.Size = new System.Drawing.Size(110, 20);
-            this.txt_CodigoCliente.TabIndex = 13;
-            // 
-            // lbl_CodigoVendedor
-            // 
-            this.lbl_CodigoVendedor.AutoSize = true;
-            this.lbl_CodigoVendedor.Location = new System.Drawing.Point(280, 121);
-            this.lbl_CodigoVendedor.Name = "lbl_CodigoVendedor";
-            this.lbl_CodigoVendedor.Size = new System.Drawing.Size(89, 13);
-            this.lbl_CodigoVendedor.TabIndex = 14;
-            this.lbl_CodigoVendedor.Text = "Codigo Vendedor";
-            // 
-            // cbo_codigoVendedor
-            // 
-            this.cbo_codigoVendedor.FormattingEnabled = true;
-            this.cbo_codigoVendedor.Location = new System.Drawing.Point(375, 118);
-            this.cbo_codigoVendedor.Name = "cbo_codigoVendedor";
-            this.cbo_codigoVendedor.Size = new System.Drawing.Size(110, 21);
-            this.cbo_codigoVendedor.TabIndex = 15;
+            this.txt_CentroCosto.Location = new System.Drawing.Point(140, 163);
+            this.txt_CentroCosto.Name = "txt_CentroCosto";
+            this.txt_CentroCosto.Size = new System.Drawing.Size(110, 20);
+            this.txt_CentroCosto.TabIndex = 17;
             // 
             // lbl_CentroCosto
             // 
@@ -404,198 +479,136 @@
             this.lbl_CentroCosto.TabIndex = 16;
             this.lbl_CentroCosto.Text = "Centro";
             // 
-            // txt_CentroCosto
+            // cbo_codigoVendedor
             // 
-            this.txt_CentroCosto.Location = new System.Drawing.Point(140, 163);
-            this.txt_CentroCosto.Name = "txt_CentroCosto";
-            this.txt_CentroCosto.Size = new System.Drawing.Size(110, 20);
-            this.txt_CentroCosto.TabIndex = 17;
+            this.cbo_codigoVendedor.FormattingEnabled = true;
+            this.cbo_codigoVendedor.Location = new System.Drawing.Point(375, 118);
+            this.cbo_codigoVendedor.Name = "cbo_codigoVendedor";
+            this.cbo_codigoVendedor.Size = new System.Drawing.Size(110, 21);
+            this.cbo_codigoVendedor.TabIndex = 15;
             // 
-            // Gpb_DetalleComprobante
+            // lbl_CodigoVendedor
             // 
-            this.Gpb_DetalleComprobante.Controls.Add(this.cbo_Descuento);
-            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Descuento);
-            this.Gpb_DetalleComprobante.Controls.Add(this.Btn_Agregar);
-            this.Gpb_DetalleComprobante.Controls.Add(this.chk_IVA);
-            this.Gpb_DetalleComprobante.Controls.Add(this.cbo_Servicio);
-            this.Gpb_DetalleComprobante.Controls.Add(this.Dgv_detalleComprobante);
-            this.Gpb_DetalleComprobante.Controls.Add(this.txt_Precio);
-            this.Gpb_DetalleComprobante.Controls.Add(this.btn_Plus);
-            this.Gpb_DetalleComprobante.Controls.Add(this.btn_minus);
-            this.Gpb_DetalleComprobante.Controls.Add(this.txt_cantidad);
-            this.Gpb_DetalleComprobante.Controls.Add(this.txt_Concepto);
-            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Concepto);
-            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Cantidad);
-            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Precio);
-            this.Gpb_DetalleComprobante.Controls.Add(this.lbl_Articulo);
-            this.Gpb_DetalleComprobante.Location = new System.Drawing.Point(1, 214);
-            this.Gpb_DetalleComprobante.Name = "Gpb_DetalleComprobante";
-            this.Gpb_DetalleComprobante.Size = new System.Drawing.Size(994, 430);
-            this.Gpb_DetalleComprobante.TabIndex = 1;
-            this.Gpb_DetalleComprobante.TabStop = false;
-            this.Gpb_DetalleComprobante.Text = "Detalle Comprobante";
+            this.lbl_CodigoVendedor.AutoSize = true;
+            this.lbl_CodigoVendedor.Location = new System.Drawing.Point(280, 121);
+            this.lbl_CodigoVendedor.Name = "lbl_CodigoVendedor";
+            this.lbl_CodigoVendedor.Size = new System.Drawing.Size(89, 13);
+            this.lbl_CodigoVendedor.TabIndex = 14;
+            this.lbl_CodigoVendedor.Text = "Codigo Vendedor";
             // 
-            // lbl_Articulo
+            // txt_CodigoCliente
             // 
-            this.lbl_Articulo.AutoSize = true;
-            this.lbl_Articulo.Location = new System.Drawing.Point(17, 35);
-            this.lbl_Articulo.Name = "lbl_Articulo";
-            this.lbl_Articulo.Size = new System.Drawing.Size(85, 13);
-            this.lbl_Articulo.TabIndex = 0;
-            this.lbl_Articulo.Text = "Articulo/Servicio";
+            this.txt_CodigoCliente.Location = new System.Drawing.Point(140, 118);
+            this.txt_CodigoCliente.Name = "txt_CodigoCliente";
+            this.txt_CodigoCliente.Size = new System.Drawing.Size(110, 20);
+            this.txt_CodigoCliente.TabIndex = 13;
             // 
-            // lbl_Precio
+            // lbl_CodigoCliente
             // 
-            this.lbl_Precio.AutoSize = true;
-            this.lbl_Precio.Location = new System.Drawing.Point(675, 35);
-            this.lbl_Precio.Name = "lbl_Precio";
-            this.lbl_Precio.Size = new System.Drawing.Size(37, 13);
-            this.lbl_Precio.TabIndex = 1;
-            this.lbl_Precio.Text = "Precio";
+            this.lbl_CodigoCliente.AutoSize = true;
+            this.lbl_CodigoCliente.Location = new System.Drawing.Point(15, 121);
+            this.lbl_CodigoCliente.Name = "lbl_CodigoCliente";
+            this.lbl_CodigoCliente.Size = new System.Drawing.Size(75, 13);
+            this.lbl_CodigoCliente.TabIndex = 12;
+            this.lbl_CodigoCliente.Text = "Codigo Cliente";
             // 
-            // lbl_Cantidad
+            // txt_Cotización
             // 
-            this.lbl_Cantidad.AutoSize = true;
-            this.lbl_Cantidad.Location = new System.Drawing.Point(490, 34);
-            this.lbl_Cantidad.Name = "lbl_Cantidad";
-            this.lbl_Cantidad.Size = new System.Drawing.Size(49, 13);
-            this.lbl_Cantidad.TabIndex = 2;
-            this.lbl_Cantidad.Text = "Cantidad";
+            this.txt_Cotización.Location = new System.Drawing.Point(375, 71);
+            this.txt_Cotización.Name = "txt_Cotización";
+            this.txt_Cotización.Size = new System.Drawing.Size(110, 20);
+            this.txt_Cotización.TabIndex = 11;
             // 
-            // lbl_Concepto
+            // lbl_cotizacion
             // 
-            this.lbl_Concepto.AutoSize = true;
-            this.lbl_Concepto.Location = new System.Drawing.Point(249, 35);
-            this.lbl_Concepto.Name = "lbl_Concepto";
-            this.lbl_Concepto.Size = new System.Drawing.Size(53, 13);
-            this.lbl_Concepto.TabIndex = 3;
-            this.lbl_Concepto.Text = "Concepto";
+            this.lbl_cotizacion.AutoSize = true;
+            this.lbl_cotizacion.Location = new System.Drawing.Point(280, 74);
+            this.lbl_cotizacion.Name = "lbl_cotizacion";
+            this.lbl_cotizacion.Size = new System.Drawing.Size(62, 13);
+            this.lbl_cotizacion.TabIndex = 10;
+            this.lbl_cotizacion.Text = "Contización";
             // 
-            // txt_Concepto
+            // cbo_TipoMoneda
             // 
-            this.txt_Concepto.Location = new System.Drawing.Point(308, 32);
-            this.txt_Concepto.Multiline = true;
-            this.txt_Concepto.Name = "txt_Concepto";
-            this.txt_Concepto.Size = new System.Drawing.Size(164, 22);
-            this.txt_Concepto.TabIndex = 4;
+            this.cbo_TipoMoneda.FormattingEnabled = true;
+            this.cbo_TipoMoneda.Location = new System.Drawing.Point(140, 71);
+            this.cbo_TipoMoneda.Name = "cbo_TipoMoneda";
+            this.cbo_TipoMoneda.Size = new System.Drawing.Size(110, 21);
+            this.cbo_TipoMoneda.TabIndex = 9;
             // 
-            // txt_cantidad
+            // lbl_Moneda
             // 
-            this.txt_cantidad.Location = new System.Drawing.Point(559, 31);
-            this.txt_cantidad.Name = "txt_cantidad";
-            this.txt_cantidad.Size = new System.Drawing.Size(34, 20);
-            this.txt_cantidad.TabIndex = 5;
+            this.lbl_Moneda.AutoSize = true;
+            this.lbl_Moneda.Location = new System.Drawing.Point(15, 74);
+            this.lbl_Moneda.Name = "lbl_Moneda";
+            this.lbl_Moneda.Size = new System.Drawing.Size(46, 13);
+            this.lbl_Moneda.TabIndex = 8;
+            this.lbl_Moneda.Text = "Moneda";
             // 
-            // btn_minus
+            // txt_fecha
             // 
-            this.btn_minus.Image = ((System.Drawing.Image)(resources.GetObject("btn_minus.Image")));
-            this.btn_minus.Location = new System.Drawing.Point(599, 29);
-            this.btn_minus.Name = "btn_minus";
-            this.btn_minus.Size = new System.Drawing.Size(17, 24);
-            this.btn_minus.TabIndex = 6;
-            this.btn_minus.UseVisualStyleBackColor = true;
+            this.txt_fecha.Location = new System.Drawing.Point(375, 28);
+            this.txt_fecha.Name = "txt_fecha";
+            this.txt_fecha.Size = new System.Drawing.Size(110, 20);
+            this.txt_fecha.TabIndex = 7;
             // 
-            // btn_Plus
+            // lbl_Fecha
             // 
-            this.btn_Plus.Image = ((System.Drawing.Image)(resources.GetObject("btn_Plus.Image")));
-            this.btn_Plus.Location = new System.Drawing.Point(622, 29);
-            this.btn_Plus.Name = "btn_Plus";
-            this.btn_Plus.Size = new System.Drawing.Size(20, 24);
-            this.btn_Plus.TabIndex = 7;
-            this.btn_Plus.UseVisualStyleBackColor = true;
+            this.lbl_Fecha.AutoSize = true;
+            this.lbl_Fecha.Location = new System.Drawing.Point(280, 32);
+            this.lbl_Fecha.Name = "lbl_Fecha";
+            this.lbl_Fecha.Size = new System.Drawing.Size(37, 13);
+            this.lbl_Fecha.TabIndex = 6;
+            this.lbl_Fecha.Text = "Fecha";
             // 
-            // txt_Precio
+            // txt_NoComprobante
             // 
-            this.txt_Precio.Location = new System.Drawing.Point(727, 32);
-            this.txt_Precio.Name = "txt_Precio";
-            this.txt_Precio.Size = new System.Drawing.Size(89, 20);
-            this.txt_Precio.TabIndex = 8;
+            this.txt_NoComprobante.Location = new System.Drawing.Point(795, 29);
+            this.txt_NoComprobante.Name = "txt_NoComprobante";
+            this.txt_NoComprobante.Size = new System.Drawing.Size(110, 20);
+            this.txt_NoComprobante.TabIndex = 5;
             // 
-            // Dgv_detalleComprobante
+            // txt_serieComprobante
             // 
-            this.Dgv_detalleComprobante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgv_detalleComprobante.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Articulo,
-            this.Concepto,
-            this.Cantidad,
-            this.Precio});
-            this.Dgv_detalleComprobante.Location = new System.Drawing.Point(20, 159);
-            this.Dgv_detalleComprobante.Name = "Dgv_detalleComprobante";
-            this.Dgv_detalleComprobante.Size = new System.Drawing.Size(941, 256);
-            this.Dgv_detalleComprobante.TabIndex = 9;
+            this.txt_serieComprobante.Location = new System.Drawing.Point(541, 28);
+            this.txt_serieComprobante.Name = "txt_serieComprobante";
+            this.txt_serieComprobante.Size = new System.Drawing.Size(89, 20);
+            this.txt_serieComprobante.TabIndex = 4;
             // 
-            // Precio
+            // lbl_Serie
             // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
+            this.lbl_Serie.AutoSize = true;
+            this.lbl_Serie.Location = new System.Drawing.Point(504, 31);
+            this.lbl_Serie.Name = "lbl_Serie";
+            this.lbl_Serie.Size = new System.Drawing.Size(31, 13);
+            this.lbl_Serie.TabIndex = 3;
+            this.lbl_Serie.Text = "Serie";
             // 
-            // Cantidad
+            // lbl_NoComprobante
             // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
+            this.lbl_NoComprobante.AutoSize = true;
+            this.lbl_NoComprobante.Location = new System.Drawing.Point(684, 32);
+            this.lbl_NoComprobante.Name = "lbl_NoComprobante";
+            this.lbl_NoComprobante.Size = new System.Drawing.Size(105, 13);
+            this.lbl_NoComprobante.TabIndex = 2;
+            this.lbl_NoComprobante.Text = "No. de Comprobante";
             // 
-            // Concepto
+            // cbo_TipoComprobante
             // 
-            this.Concepto.HeaderText = "Concepto";
-            this.Concepto.Name = "Concepto";
+            this.cbo_TipoComprobante.FormattingEnabled = true;
+            this.cbo_TipoComprobante.Location = new System.Drawing.Point(140, 28);
+            this.cbo_TipoComprobante.Name = "cbo_TipoComprobante";
+            this.cbo_TipoComprobante.Size = new System.Drawing.Size(110, 21);
+            this.cbo_TipoComprobante.TabIndex = 1;
             // 
-            // Articulo
+            // lbl_TipoComprobante
             // 
-            this.Articulo.HeaderText = "Articulo";
-            this.Articulo.Name = "Articulo";
-            // 
-            // cbo_Servicio
-            // 
-            this.cbo_Servicio.FormattingEnabled = true;
-            this.cbo_Servicio.Location = new System.Drawing.Point(118, 31);
-            this.cbo_Servicio.Name = "cbo_Servicio";
-            this.cbo_Servicio.Size = new System.Drawing.Size(110, 21);
-            this.cbo_Servicio.TabIndex = 10;
-            // 
-            // chk_IVA
-            // 
-            this.chk_IVA.AutoSize = true;
-            this.chk_IVA.Location = new System.Drawing.Point(734, 58);
-            this.chk_IVA.Name = "chk_IVA";
-            this.chk_IVA.Size = new System.Drawing.Size(82, 17);
-            this.chk_IVA.TabIndex = 11;
-            this.chk_IVA.Text = "IVA incluido";
-            this.chk_IVA.UseVisualStyleBackColor = true;
-            // 
-            // Btn_Agregar
-            // 
-            this.Btn_Agregar.Location = new System.Drawing.Point(837, 102);
-            this.Btn_Agregar.Name = "Btn_Agregar";
-            this.Btn_Agregar.Size = new System.Drawing.Size(85, 30);
-            this.Btn_Agregar.TabIndex = 12;
-            this.Btn_Agregar.Text = "Agregar";
-            this.Btn_Agregar.UseVisualStyleBackColor = true;
-            // 
-            // lbl_Descuento
-            // 
-            this.lbl_Descuento.AutoSize = true;
-            this.lbl_Descuento.Location = new System.Drawing.Point(834, 38);
-            this.lbl_Descuento.Name = "lbl_Descuento";
-            this.lbl_Descuento.Size = new System.Drawing.Size(59, 13);
-            this.lbl_Descuento.TabIndex = 13;
-            this.lbl_Descuento.Text = "Descuento";
-            // 
-            // cbo_Descuento
-            // 
-            this.cbo_Descuento.FormattingEnabled = true;
-            this.cbo_Descuento.Location = new System.Drawing.Point(899, 35);
-            this.cbo_Descuento.Name = "cbo_Descuento";
-            this.cbo_Descuento.Size = new System.Drawing.Size(33, 21);
-            this.cbo_Descuento.TabIndex = 14;
-            // 
-            // Btn_generar
-            // 
-            this.Btn_generar.Location = new System.Drawing.Point(858, 650);
-            this.Btn_generar.Name = "Btn_generar";
-            this.Btn_generar.Size = new System.Drawing.Size(85, 30);
-            this.Btn_generar.TabIndex = 15;
-            this.Btn_generar.Text = "Generar";
-            this.Btn_generar.UseVisualStyleBackColor = true;
+            this.lbl_TipoComprobante.AutoSize = true;
+            this.lbl_TipoComprobante.Location = new System.Drawing.Point(15, 31);
+            this.lbl_TipoComprobante.Name = "lbl_TipoComprobante";
+            this.lbl_TipoComprobante.Size = new System.Drawing.Size(109, 13);
+            this.lbl_TipoComprobante.TabIndex = 0;
+            this.lbl_TipoComprobante.Text = "Tipo de Comprobante";
             // 
             // tbc_MovimientosClientes
             // 
@@ -607,6 +620,49 @@
             this.tbc_MovimientosClientes.Size = new System.Drawing.Size(1024, 729);
             this.tbc_MovimientosClientes.TabIndex = 1;
             // 
+            // btn_Saldar
+            // 
+            this.btn_Saldar.Location = new System.Drawing.Point(633, 546);
+            this.btn_Saldar.Name = "btn_Saldar";
+            this.btn_Saldar.Size = new System.Drawing.Size(100, 33);
+            this.btn_Saldar.TabIndex = 3;
+            this.btn_Saldar.Text = "Saldar";
+            this.btn_Saldar.UseVisualStyleBackColor = true;
+            // 
+            // lbl_codigoCompro
+            // 
+            this.lbl_codigoCompro.AutoSize = true;
+            this.lbl_codigoCompro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_codigoCompro.Location = new System.Drawing.Point(78, 556);
+            this.lbl_codigoCompro.Name = "lbl_codigoCompro";
+            this.lbl_codigoCompro.Size = new System.Drawing.Size(106, 13);
+            this.lbl_codigoCompro.TabIndex = 4;
+            this.lbl_codigoCompro.Text = "Codigo Comprobante";
+            // 
+            // lbl_SaldoaPag
+            // 
+            this.lbl_SaldoaPag.AutoSize = true;
+            this.lbl_SaldoaPag.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_SaldoaPag.Location = new System.Drawing.Point(393, 556);
+            this.lbl_SaldoaPag.Name = "lbl_SaldoaPag";
+            this.lbl_SaldoaPag.Size = new System.Drawing.Size(74, 13);
+            this.lbl_SaldoaPag.TabIndex = 5;
+            this.lbl_SaldoaPag.Text = "Saldo a Pagar";
+            // 
+            // txt_saldo
+            // 
+            this.txt_saldo.Location = new System.Drawing.Point(473, 553);
+            this.txt_saldo.Name = "txt_saldo";
+            this.txt_saldo.Size = new System.Drawing.Size(89, 20);
+            this.txt_saldo.TabIndex = 6;
+            // 
+            // txt_codigo
+            // 
+            this.txt_codigo.Location = new System.Drawing.Point(209, 553);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(89, 20);
+            this.txt_codigo.TabIndex = 7;
+            // 
             // MovimientoClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -615,15 +671,16 @@
             this.Name = "MovimientoClientes";
             this.Size = new System.Drawing.Size(1024, 728);
             this.tbc_ListarMovimientos.ResumeLayout(false);
+            this.tbc_ListarMovimientos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.gbp_Listar.ResumeLayout(false);
             this.gbp_Listar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tbc_Generar.ResumeLayout(false);
-            this.Gpb_EncabezadoComprobante.ResumeLayout(false);
-            this.Gpb_EncabezadoComprobante.PerformLayout();
             this.Gpb_DetalleComprobante.ResumeLayout(false);
             this.Gpb_DetalleComprobante.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detalleComprobante)).EndInit();
+            this.Gpb_EncabezadoComprobante.ResumeLayout(false);
+            this.Gpb_EncabezadoComprobante.PerformLayout();
             this.tbc_MovimientosClientes.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -689,5 +746,10 @@
         private System.Windows.Forms.ComboBox cbo_TipoComprobante;
         private System.Windows.Forms.Label lbl_TipoComprobante;
         private System.Windows.Forms.TabControl tbc_MovimientosClientes;
+        private System.Windows.Forms.TextBox txt_codigo;
+        private System.Windows.Forms.TextBox txt_saldo;
+        private System.Windows.Forms.Label lbl_SaldoaPag;
+        private System.Windows.Forms.Label lbl_codigoCompro;
+        private System.Windows.Forms.Button btn_Saldar;
     }
 }
